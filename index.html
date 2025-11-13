@@ -496,6 +496,19 @@
                     </ul>
                 </div>
             </div>
+            
+            <!-- Google Maps Embed -->
+            <div style="margin-top: 40px; background: white; padding: 20px;">
+                <h3 style="margin-bottom: 20px; color: var(--text-dark); text-align: center;">Find Us On The Map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.741091739362!2d-95.89267662422519!3d36.148516804163584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b68dcbc8231957%3A0xcd09b19db6601e79!2sTop%20Shelf%20Auto%20Repair!5e0!3m2!1sen!2sus!4v1762998958111!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </section>
 
         <!-- Reviews Section -->
@@ -565,13 +578,322 @@
     <script>
         // Reviews Array - Easy to add more reviews
         const reviews = [
-            { name: "Customer 1", rating: 5, body: "" },
-            { name: "Customer 2", rating: 5, body: "" },
-            { name: "Customer 3", rating: 5, body: "" },
-            { name: "Customer 4", rating: 5, body: "" },
-            { name: "Customer 5", rating: 5, body: "" },
-            { name: "Customer 6", rating: 5, body: "" }
-        ];
+    {
+        "name": "Jeffrey Winkle",
+        "rating": 5,
+        "body": "Hands down best mechanic I've been to!!! Got into an accident right before the weekend, completely wrecked the passenger side linkage, it was undrivable. Called David at Top Shelf Auto Repair and he got me in the same day, the man with the towing service knew the place well and said he trusted this mechanic shop so that was reassuring! David got the car diagnosed immediately and had the parts ordered and expedited, and got me and my family back on the road safe right after the weekend! The shop was clean, he was very knowledgeable and walked us through every process patiently and professionally. We even got to hear some exciting stories of his travels while we were there, the office is really an entire experience! 10 out of 10 would recommend, this is my new mechanic and all of my friends and family will be recommended to come here! Thanks again to David and the whole staff at Top Shelf Auto Repair for being so thorough and reliable!"
+    },
+    {
+        "name": "Scott Mohs",
+        "rating": 5,
+        "body": "I recently took my car here to top shelf Auto Repair. David and his team knew exactly what to do and we’re very good about explaining the process and being prompt with getting the repairs done. Highly Recommend this Shop."
+    },
+    {
+        "name": "Bexit Ford",
+        "rating": 5,
+        "body": "The only place I trust with my vehicle and my families vehicles!! I finally found the repair shop that won't screw you over, and they're straight forward with whatever issue your vehicle has, David will tell you everything that is wrong with your vehicle, and be straight forward and if you want to fix the issue, or not. My family and I only come to Top Shelf to fix our vehicles repairs and oil changes, the only shop in Tulsa I trust with my beautiful beast..."
+    },
+    {
+        "name": "Jenn O",
+        "rating": 5,
+        "body": "We’ve had 3 different vehicles from our family that we’ve taken to Dave at Top Shelf Auto Repair. He is always very upfront with everything that needs to be done as well as things that we may want to look at in the future. Never any pressure about anything and our cars come back in great working order! Really thankful to have found an honest and reliable car repair shop!!!!!"
+    },
+    {
+        "name": "undercover rebel",
+        "rating": 5,
+        "body": "David replaced my front brakes, & did a great job! He was quick & affordable, too! I was so happy when I didn't have to wait very long to get my carry back. I'd recommend David & Top Shelf cars to all my friends & family too."
+    },
+    {
+        "name": "Angie Velasquez",
+        "rating": 5,
+        "body": "Highly recommend Dave at Top Shelf! He’s been taking care of our vehicles for a few years now. Trust him above and beyond!"
+    },
+    {
+        "name": "Brittany Honeycutt",
+        "rating": 5,
+        "body": "Anyone looking for an awesome mechanic top shelf auto repair has a very clean nice shop, the owner David has amazing customer service!! I had issues with my Cadillac,and already had it diagnosed before taking it to him. I had him run a diagnostic test too and he didn't try to make more money he was very honest. The mechanics are great!! Great prices and clean shop!! Thank you David"
+    },
+    {
+        "name": "Ian Conner",
+        "rating": 5,
+        "body": "David and his team did an amazing job on my truck!! Would recommend them to anyone who needs quality work done to their vehicles."
+    },
+    {
+        "name": "Rory Colgan",
+        "rating": 5,
+        "body": "Dave and his team have taken great care of our cars and were able to solve an issue in 4 hours. That same issue a dealership would have taken 2 days to address. Fair Pricing also."
+    },
+    {
+        "name": "Ben Carter",
+        "rating": 5,
+        "body": "I had an exhaust stud shake out on a long trip and had tried to replace it myself but was given the wrong part and it got totally stuck . David got it out, retapped/threaded it and even changed the seals for me while he was at it. It’s all fixed up, sounding great, couldn’t be more pleased. Highly reccomend!"
+    },
+    {
+        "name": "Louryn Butler",
+        "rating": 5,
+        "body": "David provides excellent customer service and great pricing. As a woman a lot of auto shops can be intimidating and high pressure but at Top Shelf Auto its welcoming and relaxed. I will definitely be back for more services on my truck. Thank you so much! More"
+    },
+    {
+        "name": "Leda Lou",
+        "rating": 5,
+        "body": "David and his team at Top Shelf Auto Repair are thorough and fair. They are able to diagnose and repair issues in a timely manner and always keep you informed on their progress. They take pride and ownership of all their work! I take both … More"
+    },
+    {
+        "name": "Eduardo Rojas",
+        "rating": 5,
+        "body": "Top shelf is a hidden gem, It’s hard to find great help now a days. David and his team have been nothing but great, fully transparent, on time and fair price, you can’t beat that. They keep surprise me in how efficiency, how reliable and … More"
+    },
+    {
+        "name": "Alicia Torres",
+        "rating": 5,
+        "body": "Hands down the best automotive shop around!! So thankful for David and Top Shelf Cars! They found issues with my Jeep that 3 other shops/mechanics in the past have either overlooked or failed to find. He kept open communication about … More"
+    },
+    {
+        "name": "Paula Wood",
+        "rating": 5,
+        "body": "They kept me updated through the process as to what to expect, are very friendly, and helpful"
+    },
+    {
+        "name": "Ryan Parrish",
+        "rating": 5,
+        "body": "I usually don't give 5 stars but this place is fantastic when it comes to getting your car fixed and back on the road! I've taken 3 vehicles here in the last year and a half and they get it done fast!! They're great mechanics and very … More"
+    },
+    {
+        "name": "Mark M",
+        "rating": 5,
+        "body": "Good people and honest knowledgeable service. Dave did the brakes on my truck and has worked on co workers vehicles at my recommendations. The negative reviews are from cheap skate clunker car lot owners who low ball every automotive service provider they encounter. More"
+    },
+    {
+        "name": "Michael Wyatt",
+        "rating": 5,
+        "body": "Best shop in Tulsa to get your vehicle worked on! Outstanding prices you will pay a fraction of what other shops will charge. Good honest people and great work. Will continue to bring all my vehicles here when need to."
+    },
+    {
+        "name": "Demarion Caldwell",
+        "rating": 5,
+        "body": "I’m a young guy with no knowledge of cars what so ever. David got me in the same day I called every where else was booked way out. David has a really decent tow charge and worked hard af to fix my car. I had a lot of nicks everywhere they were very patient ! Best service I’ve had! Great place !"
+    },
+    {
+        "name": "Zac Iezzi",
+        "rating": 5,
+        "body": "The best mechanics I've ever been to! The owner is knowledgeable, has affordable prices and he's a pretty down to earth guy. I've recommended them to all of my friends and family in need of help with their vehicles."
+    },
+    {
+        "name": "Claire Marcotte",
+        "rating": 5,
+        "body": "Recently I had to have the heater core replaced in my Ford Escape. Everyone else quoted me up to 3k and two weeks or more before they could fix it. Top Shelf was able to get my vehicle in quickly and fix it for an affordable price! More"
+    },
+    {
+        "name": "Sharon Nett",
+        "rating": 5,
+        "body": "The owner was very friendly and personable. Reasonably priced services. Fixed everything in a good time frame. I would recommend Top Shelf Auto Repair to everyone! Definitely a reliable go to when you’re in need of Auto repairs. More"
+    },
+    {
+        "name": "Cody Harris",
+        "rating": 5,
+        "body": "Blessed to have found an honest mechanic. So many pirates work in the wrench business. Truthful up front. Thorough with their work . Other shop quoted me 10 hours of labor. David did it in 6.5 hrs Saved me over 350$"
+    },
+    {
+        "name": "David Godwin",
+        "rating": 5,
+        "body": "Sent my truck up there with the transmission pulled. He figured what was wrong with it, fixed it and installed it.Works great. David kept me up to date all week long via mostly texts. I'll be taking my other truck up there soon. Highly recommend"
+    },
+    {
+        "name": "Kathy Trevino",
+        "rating": 5,
+        "body": "I had a great experience with this shop. The problem was diagnosed asap, fixed and out the door. The price quoted was great and when I picked up the car, there was no surprise bill! I highly recommend this shop!"
+    },
+    {
+        "name": "Sami Garner",
+        "rating": 5,
+        "body": "Always a great experience! The owner is so friendly, and he's never led us astray. If you want quality work done for a good price, go see this guy! More"
+    },
+    {
+        "name": "Cody Harris",
+        "rating": 5,
+        "body": "Was quoted $2,500 at another shop. Brought my vehicle to David and he saved me $1300. Not a problem since. Honest, truthful people."
+    },
+    {
+        "name": "Kyle Abernathy",
+        "rating": 5,
+        "body": "Fantastic place prices are fair great people"
+    },
+    {
+        "name": "Linda Henderson-McMullen",
+        "rating": 5,
+        "body": "Knowledgeable owner and staff. Great work! I'll remain a customer!"
+    },
+    {
+        "name": "Dontae Austin",
+        "rating": 5,
+        "body": "They got my van back on the road. And I'm grateful Best price around I'd say. And David your cool as a fan bud. Thank you"
+    },
+    {
+        "name": "Scott Parker",
+        "rating": 5,
+        "body": "These guys are awesome!!! They do great work, reasonably priced, but they greatest thing, they really care!!! I highly recommend them to everyone."
+    },
+    {
+        "name": "S V",
+        "rating": 5,
+        "body": "Used this company for a catalytic converter replacement. Their quote was much less than others, and their time to get it done was a fraction of the estimated time at other shops A+ all the way! More"
+    },
+    {
+        "name": "ねこさま",
+        "rating": 5,
+        "body": "Best car shop around! Very knowledgeable, fast and explains everything very well! Plan on getting all my Maintenance there from now on! More"
+    },
+    {
+        "name": "Marky Greenthumb",
+        "rating": 5,
+        "body": "David is nothing short of amazing! This guy really knows his stuff! Highly recommend!!"
+    },
+    {
+        "name": "Trey Bennett",
+        "rating": 5,
+        "body": "Very helpful! David’s gotten me out of several automotive pickles! They have helped me with some serious repairs and I’m very thankful for it!"
+    },
+    {
+        "name": "Phillip Hammontree",
+        "rating": 5,
+        "body": "Very knowledgeable found someone you can trust he will not over price"
+    },
+    {
+        "name": "Eric Parker",
+        "rating": 5,
+        "body": "Highly recommend Top Shelf Auto Repair! David and his team are the best."
+    },
+    {
+        "name": "Trey Bennett",
+        "rating": 5,
+        "body": "David’s shop has helped me multiple times to get my vehicles back to road worthy! Services… More"
+    },
+    {
+        "name": "Jack Saltzman",
+        "rating": 5,
+        "body": "These guys did me right, changed my head gasket and struts. It didn't cost me $5000 like like the other corporate shops quoted me. More"
+    },
+    {
+        "name": "David Keene",
+        "rating": 5,
+        "body": "Great place, awesome prices, friendly and hospitable, excellent work."
+    },
+    {
+        "name": "Fleabe BoBeBee",
+        "rating": 5,
+        "body": "doesn't put up with abusive customers. love it"
+    },
+    {
+        "name": "kimberly hill",
+        "rating": 5,
+        "body": "Very professional and thorough. Customer service excellent!!!!"
+    },
+    {
+        "name": "Karelyn Abbott",
+        "rating": 5,
+        "body": "Great service. Honest people. Timely."
+    },
+    {
+        "name": "turtleblazed",
+        "rating": 5,
+        "body": "Trustworthy people. They know what they’re doing."
+    },
+    {
+        "name": "Agustin Orellana",
+        "rating": 5,
+        "body": "Above and beyond excellent service."
+    },
+    {
+        "name": "Cara Kennedy",
+        "rating": 5,
+        "body": "David is amazing"
+    },
+    {
+        "name": "Kody Kocel",
+        "rating": 5,
+        "body": "Good people"
+    },
+    {
+        "name": "Connor McDowell",
+        "rating": 5,
+        "body": "Services Auto engine diagnostic, Steering & suspension repair"
+    },
+    {
+        "name": "Josh McCall",
+        "rating": 5,
+        "body": "Services Electrical repair"
+    },
+    {
+        "name": "Analiece",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Jumal Harrigan",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Collin B",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Allan. O.N",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Haley Caldwell",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "steve ollenburger",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Pedro Becerra",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Jesse Smittle",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Elliott Sumrall",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Austin Skrdla",
+        "rating": 4,
+        "body": "Very helpful"
+    },
+    {
+        "name": "Alfredo Ramirez",
+        "rating": 4,
+        "body": ""
+    },
+    {
+        "name": "John Carter",
+        "rating": 1,
+        "body": "Very bad place to get your vehicle fixed. They charged a high amount of extras, but never fixed the original problem. I brought it back twice to fix it... after the 2nd time they said they had no idea how to fix it and that I needed to take it to Ford. They charged phantom charges. No refund for incomplete work"
+    },
+    {
+        "name": "Mark Adamson",
+        "rating": 1,
+        "body": "Absolutely worst customer service. Never in my time will I ever take my vehicles there nor any of my customers to them. I wouldn't recommend anyone to use this company"
+    },
+    {
+        "name": "Moe",
+        "rating": 1,
+        "body": "Response from the owner 10 months ago Is there anything we can help you with? Have you been to our shop before?"
+    }
+];
 
         // Reviews Display Logic
         let visibleReviews = 6;
